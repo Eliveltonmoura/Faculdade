@@ -1,0 +1,19 @@
+***OPERADORES:
+1 operator=
+2 operator[]
+3 operator+=
+4 operator+
+
+*** Funções:
+CONSTANTE string::npos: maximo valor de size_t (-1, pois eh sem sinal) => ate o fim da string
+Copia: =
+Concatenacao: +=
+Tamanho: .size ou .length
+Comparação: < , <=, >, ==
+Erase: .erase
+Empty: .empty
+Swap: .swap
+Find_first_of: .find_first_of 
+Find_last_of: .find_last_of
+Substr: .substr
+Pop_back: .pop_back (Deixar eles tentarem fazer antes, usando .size)
